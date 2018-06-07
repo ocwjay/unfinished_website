@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jena</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="ECP-master/ecp-1.1.0.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header id="headerWrap"> <!--I think I'll leave this as an absolute header. I'll use ITraN later, when I've finished it.-->
+      <a id="logo" href="index.html"></a> <!--If you're wondering, the logo is how I sign my initials. :) -->
+      <a id="navOpenLink" href="javascript:onIconClick()"><img id="navToggleIcon" src="img/icon/navOpenIcon.png"></a> <!--I like to make my own icons, by the way.-->
+    </header>
+    <nav id="navigationTray">
+      <div id="navigationContent">
+        <a id="navLinkBox" href="index.html"><div id="navLink"><p>Home</p></div></a>
+        <a id="navLinkBox" href="about.html"><div id="navLink"><p>About</p></div></a>
+        <a id="navLinkBox" href="portfolio.html"><div id="navLink"><p>Portfolio</p></div></a>
+        <a id="navLinkBox" href="services.html"><div id="navLink"><p>Services</p></div></a>
+        <a id="navLinkBox" href="contact.html"><div id="navLink"><p>Contact</p></div></a>
+      </div>
+    </nav>
+    <div id="pageIdentifier"><h1 id="identifierText">PORTFOLIO</h1></div>
+    <div class="content">
+      <h1>Welcome!</h1>
+      <p>Patience is a virtue, friend.</p>
+      <p>If you wish to see more about a project, just click on the card that's representing it.</p>
+      <div id="portfolioWrapper" class="shadows">
+        <p id="portfolioItems">ITraN, https://github.com/ocwjay/ITraN, img/portfolioPictures/itranLogoWhite.png, ECP, https://github.com/ocwjay/ECP, img/portfolioPictures/ecpLogoWhite.png, JS Lotto, https://github.com/ocwjay/Lotto-Game, img/portfolioPictures/lotto.png, JS Calc, https://github.com/ocwjay/Simple-Calculator, img/portfolioPictures/calc.png</p>
+      </div>
+      <div id="portfolioCredit">
+        <p id="creditText">Portfolio powered by </p>
+        <a><div id="ecpLogo"></div></a>
+      </div>
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="ECP-master/ecp-1.1.0.js"></script>
+  </body>
+</html>
